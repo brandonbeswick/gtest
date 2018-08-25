@@ -1,0 +1,415 @@
+
+body{
+    font-size: 3.1vw;
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+a{
+    color: black;
+}
+.main-wrap{
+    display: grid;
+ /*
+background-image: linear-gradient(12deg, rgba(255,129,119, .7) 0%, rgba(255,134,122, .7) 0%, rgba(255,140,127, .7) 21%, rgba(255,145,133, .7) 52%, rgba(207,85,108, .7) 78%, rgba(177,42,91, .7) 100%);   */
+    background: rgba(255,129,119, .7);
+    height: 200%;
+}
+body{
+       background: url(wildtextures-concrete-high-contrast.jpg);  
+    background-repeat: repeat;
+    background-size: contain;
+}
+.main-wrap::after{
+    content: ""; 
+    position: relative;
+    background-size: cover; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .1;
+}
+.main-wrap h1, .main-wrap p{ 
+    margin: 0;
+}
+.hero > p{ 
+    padding-bottom: 10px;    
+    font-size: 2rem;
+}
+
+.hero{ 
+    display: flex;
+    flex-direction: column; 
+    margin: 0 auto; 
+    padding-left: 10px; 
+    padding-right: 10px;
+    padding-top: 8px;  
+    text-align: center; 
+    justify-content: space-between;   
+    max-width: 900px;
+    position: relative;
+    z-index: 2; 
+    min-height: 100vh;
+}
+/*
+.hero{
+    display: grid;
+background-image: linear-gradient(12deg, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);  
+    height: 100%; 
+}
+.hero::after{
+    content: "";
+    background: url(wildtextures-concrete-high-contrast.jpg);  
+position: absolute;
+    background-size: cover; 
+    background-repeat: repeat-y;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .1;
+    z-index: -1;
+}
+*/
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 10vh; 
+    align-items: center;
+    justify-content: flex-end; 
+    font-size: 1.1rem; 
+}
+footer p:last-of-type{ 
+    padding-bottom: 10px;
+}
+
+.hero h1, .hero h2{
+    margin: 0;
+}
+.front-img{
+    max-width: 60vw; 
+} 
+.hero-text{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    justify-content: flex-end;
+    justify-items: space-between;  
+}
+.front-title{
+    display: block;
+}
+@media only screen and (max-width: 800px) {
+    .hero-text{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .front-title{
+        display: none;
+    }
+}
+.hero-text img{
+
+}
+.hero-double{
+    display: block; 
+    min-width: 280px;
+}
+.home-link{
+    display: grid; 
+}
+
+.firstNameHero{
+    font-size: 5.1rem; 
+    font-weight: 500; 
+    justify-self: flex-start;
+    padding-left: 20px;
+}
+.lastNameHero {
+    font-size: 6.4rem; 
+    font-weight: 900;
+    justify-self: flex-start;
+    padding-left: 80px;    
+}
+.firstNameHero a, .lastNameHero a{
+    text-decoration: none;
+}
+.lastNameHero a{
+    color: #ebebeb;
+}
+.social-buttons{
+    font-size: 2rem;
+    color: #ebebeb;
+    padding: 20px;
+    grid-column: span 1 / -1;
+}
+.social-buttons i{
+    background: black;
+    padding: 0; 
+    margin: 0; 
+    padding: 12px;
+    border-radius: 50%;
+    
+    
+}
+.main-nav ul{  
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.main-nav p{ 
+    margin: 0;
+    font-size: 1rem;
+}
+.main-nav ul li {
+    display: flex;
+    align-items: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh; 
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.main-nav ul li a i{
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+    padding-left: 4px;
+}
+
+.dates-holder{ 
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+.date-tile{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 6px; 
+    align-items: center;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.date-tile p{ 
+}
+.date-tile a p{
+    background: #ebebeb;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+iframe{
+    width: 100%;  
+}
+.video-holder-small{
+    display: none;
+}
+.video-holder{
+    display: grid;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center; 
+}
+.video-tile{
+    border: 1px solid #ebebeb; 
+}
+@media only screen and (max-width: 900px) {
+    .video-holder-small{
+        display: grid;
+    }
+    .video-holder{
+        display: none;
+    }
+} 
+.post-holder{
+    display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 10px;
+        align-items: baseline;
+}
+.post-holder h2{
+    grid-column: 1 / -1;
+    font-size: 1.8rem;
+}
+/* This is the Insta Drop */
+
+    .gram-holder{
+        display: grid;
+        align-content: flex-start;
+        border: 1px solid grey; 
+        font-size: 1rem;
+
+    }   
+    .gram-holder a{
+        padding: 0;
+        margin: 0;
+    }    
+    .gram-holder p{
+        padding-left: 8px;
+        padding-right: 6px; 
+        padding-top: 6px;
+        padding-bottom: 4px;
+        margin: 0;
+        text-align: left;
+    }
+    .gram-holder i{
+        padding-left: 8px;
+        padding-top: 8px;
+        font-size: 1.2em;
+    } 
+    .gram-holder img{
+        height: 350px;
+        object-fit: cover; 
+        width: 100%;
+ 
+    } 
+    .insta-pro-pic{ 
+    
+    }
+    .top-gram-layer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 45px;
+        border-bottom: 1px solid grey;
+        background: white;
+    }
+    .gram-likes-coms{
+        display: flex;
+        align-items: flex-start;
+        padding-bottom: 4px;
+    }
+ 
+    .gram-foot{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid grey;
+        height: 45px; 
+        padding-right: 10px;
+        background: white;
+    }
+    .gram-foot i{
+        font-size: 1.4em;
+        padding: 0;
+        margin: 0;
+    }    
+    .gram-pic{
+        display: grid;
+        align-items: center; 
+    }
+    .gram-holder div{
+        background: white;
+    }
+
+
+
+@media only screen and (max-width: 900px) {
+ 
+}
+form{
+    margin-right: 40px;
+}
+
+.form-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem; 
+    color: #ebebeb;
+    margin: 15px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%; 
+}
+ @media only screen and (max-width: 900px) {
+
+    .form-holder{
+ 
+        padding-top: 40px;
+        padding-bottom: 40px;
+    } 
+     form{
+        margin-right: 0px;
+     }
+}
+
+
+@media only screen and (max-width: 599px) {
+
+    .hero > p{   
+        font-size: 1.5rem;
+        padding-bottom: 5vh;
+    }
+    .firstNameHero{
+        font-size: 4.3rem;  
+    }
+    .lastNameHero{
+        font-size: 5.3rem;
+    }    
+    .social-buttons{
+        font-size: 1.8rem; 
+    }       
+    .main-nav ul{
+        padding-left: 20px;
+    }       
+    .main-nav ul li a{ 
+        font-size: 1.7rem; 
+    }         
+    .main-nav ul li a i{ 
+        font-size: 1.2rem; 
+    }    
+    .main-nav p{ 
+        font-size: 1.2rem;
+    }
+    footer{ 
+        font-size: .9rem;  
+    }    
+ 
+}
+@media only screen and (max-width: 370px) {
+
+    .hero > p{   
+        font-size: 1.2rem;
+        padding-bottom: 5vh;
+    }
+    .firstNameHero{
+        font-size: 4rem;  
+    }
+    .lastNameHero{
+        font-size: 5rem;
+    }    
+    .social-buttons{
+        font-size: 1.5rem; 
+    }       
+    .main-nav ul{
+        padding-left: 20px;
+    }       
+    .main-nav ul li a{ 
+        font-size: 1.4rem; 
+    }         
+    .main-nav ul li a i{ 
+        font-size: .9rem; 
+    }    
+    .main-nav p{ 
+        font-size: .9rem;
+    }
+    footer{ 
+        font-size: .7rem;   
+    } 
+    
+ 
+}
