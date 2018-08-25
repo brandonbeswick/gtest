@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+<meta property="og:description" content="S Glenn">
+     
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<link type="text/css" rel="stylesheet" href="style.css">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>       
+    
+<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Merriweather" rel="stylesheet">    
+    
+<!-- load MUI -->
+<link type="text/css" rel="stylesheet" href="mui.css">    
+<script src="mui.js"></script>        
+</head>
+<body>
+    <div class="side-nav">
+        <ul>
+            <li><h3 style="padding-right: 20px;">A short Tag line Here, somthing catchy.</h3></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="dates.html">Upcoming Dates</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+ 
+            <li class="search-nav"><p>Search:</p>
+				<input type="text" /></li>
+            <li class="nav-social">    
+        <a href="https://twitter.com/Sue_the_Shrimp"><i class="fa fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com/shrimpysue/?hl=en"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <nav id="main">
+        <div class="main-logo">
+        
+            <h1 class="title">The Blog</h1>
+        </div>        
+        <div class="main-nav-btn">
+        
+            <i class="fa fa-bars"></i>
+        </div>
+    
+    </nav>
+    <div class="site-wrap">
+        <div class="no-front-img">        
+
+        <div class="blog-holder">
+
+            <div class="most-recent blog-pre">
+                
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FiOComedyNetwork%2Fvideos%2F1441432829219522%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                <div class="blog-pre-text">
+                    <h4>A Title</h4>
+                    <p>This would be a very short discribition of the blog.</p>
+                </div>
+            </div>
+            <div class="blog-pre">
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FiOComedyNetwork%2Fvideos%2F1441432829219522%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                
+                <div class="blog-pre-text">
+                    <h4>A Title</h4>
+                    <p>This would be a very short discribition of the blog.</p>
+                </div>
+                        
+            </div>
+            <div class="blog-pre">
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/Blg40QsggwZ/" data-instgrm-version="9" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.5% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/Blg40QsggwZ/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">🍺😁dad</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/shrimpysue/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Susan Glynn</a> (@shrimpysue) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-07-22T00:30:00+00:00">Jul 21, 2018 at 5:30pm PDT</time></p></div></blockquote>
+<script async defer src="//www.instagram.com/embed.js"></script>
+ 
+                        
+            </div>
+            <div class="blog-pre">
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FiOComedyNetwork%2Fvideos%2F1409656025730536%2F&show_text=1&width=560" width="560" height="407" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+                        
+            </div>
+            <div class="blog-pre">
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BlMcEZ7Bm5R/" data-instgrm-version="9" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.5% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BlMcEZ7Bm5R/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">I take a million pictures of this ding dong #kozmo</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/shrimpysue/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Susan Glynn</a> (@shrimpysue) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-07-14T01:53:59+00:00">Jul 13, 2018 at 6:53pm PDT</time></p></div></blockquote> <script async defer src="//www.instagram.com/embed.js"></script>
+ 
+                       
+            </div>
+            <div class="blog-pre">
+                <img src="img/Susan%20NCL.jpg">
+                <div class="blog-pre-text">
+                    <h4>A Title</h4>
+                    <p>This would be a very short discribition of the blog.</p>
+                </div>
+                        
+            </div>
+            <div class="blog-pre">
+                <img src="img/Susan%20stand%20up.jpg">
+                <div class="blog-pre-text">
+                    <h4>A Title</h4>
+                    <p>This would be a very short discribition of the blog.</p>
+                </div>
+                        
+            </div>
+            <div class="blog-pre">
+                <img src="img/susan-glynn.jpg">
+                <div class="blog-pre-text">
+                    <h4>A Title</h4>
+                    <p>This would be a very short discribition of the blog.</p>
+                </div>
+                       
+            </div>
+            
+        </div>
+        
+    </div>        
+
+    </div>
+    
+<footer>
+<div class="foot-hold-top">
+    <div>
+    
+        <h4>Contact Info</h4>
+        <p>Email@email.com</p>
+        <p>804-111-1111</p>
+        <p>123 West St</p>
+        <p>Richmond, VA 23333</p>
+        
+    </div>
+    
+    <ul class="footer-nav">
+        <li><h3>Navigation</h3></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="dates.html">Upcoming Dates</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+    
+    </ul>
+    
+    <div>
+    
+        <h3>Recent Blogs</h3>
+        <a href=""><h4>Title / Date</h4></a>
+        <a href=""><p>Tag Lne</p></a>
+        <a href=""><h4>Title / Date</h4></a>
+        <a href=""><p>Tag Lne</p></a>
+        <a href=""><h4>Title / Date</h4></a>
+        <a href=""><p>Tag Lne</p></a>
+ 
+        
+    </div>   
+</div>    
+    
+<div class="foot-hold-bottom">
+    <div>
+        <p>News Letter</p>
+    </div>
+    
+    <div>
+        <i class="fa fa-facebook-square"></i>
+        <i class="fa fa-twitter-square"></i>
+        <i class="fa fa-youtube-square"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    
+    <div>
+        <p>All rights reserved 2018</p>
+    </div>
+</div>    
+</footer>    
+<script src="anime.min.js"></script>    
+<script src="script.js"></script>
+
+
+</body>
+</html>
