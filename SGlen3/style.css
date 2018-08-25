@@ -1,0 +1,331 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3vh;
+    background: #f59893 url(wildtextures-concrete-high-contrast.jpg);  
+    background-repeat: repeat;
+    background-size: contain;    
+} 
+@media only screen and (max-width:600px){
+    body{
+        font-size: 2.5vh;
+    }
+}
+img{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+.main-wrap{
+    display: grid; 
+    min-height: 100vh; 
+    position: relative;
+    background: rgba(245,152,147, .7);
+}
+.bg-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+} 
+.inline-wrap{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.name-holder h1{
+    margin: 0;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+}
+.top-nav a i{
+    color: black;
+}
+.top-nav a i:active{ 
+    transform: scale(1.1);
+    transition: all .2s; 
+    
+    transition-timing-function: ease;
+}
+
+.top-nav a i:hover{ 
+    transform: scale(1.1);
+    transition-timing-function: ease;
+    transition: all .2s; 
+}
+.screen{
+    display: inline-block;
+}
+.mobile{
+    display: none;
+}
+@media only screen and (max-width: 800px){ 
+    .screen{
+        display: none;
+    }
+    .mobile{
+        display: inline-block;
+    }    
+    
+}
+.top-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    padding-top: 1vh; 
+}
+.top-nav ul li{
+    padding-left: 10px; 
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.top-nav ul li a{
+    text-decoration: none;
+    font-size: 3.5vh;
+    color: black;
+    font-weight: 800; 
+}
+.top-social i{
+    padding: 0;
+    margin: 0;
+    margin-top: 12px;
+    font-size: 1.8rem;
+    padding-left: 8px;
+}
+
+.name-holder{ 
+    padding-top: 30vh;
+    padding-left: 5vw;
+}
+.name-holder h1{ 
+    font-size: 14vh;
+}
+@media only screen and (max-width: 600px){
+    .top-nav{
+        flex-direction: column-reverse;
+        
+    }  
+    .top-social{
+        padding-bottom: 2vh;
+    }
+     .name-holder h1{ 
+        font-size: 10vh;
+    }
+
+}
+
+
+.body-holder{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 10px;
+    background: rgba(255,255,255, .8); 
+    min-height: 55vh;
+    justify-content: center;
+    align-content: center; 
+    justify-items: center;   
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+}
+.res-holder{
+        display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    background: rgba(255,255,255, .8); 
+    min-height: 55vh;
+    justify-content: center;
+    align-content: center; 
+    justify-items: center;   
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 18px;
+}
+@media only screen and (max-width: 700px){
+    .res-holder{
+        max-height: 320px; 
+        align-content: flex-start;
+        overflow: scroll;
+    }
+}
+.res-holder h2, .res-holder h3, .res-holder p{
+    padding: 0;
+    margin: 0;
+}
+.res-holder h2{
+    padding-top: 22px;
+    padding-bottom: 18px;
+} 
+.res-holder h3{
+    padding-top: 14px;
+    padding-bottom: 12px;
+    text-align: center;
+} .res-holder p{
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+.top-social i{ 
+        font-size: 2.8rem; 
+} 
+@media only screen and (min-width: 900px){
+    .body-holder, .res-holder{
+        max-width: 65vw;
+        margin-left: 3vh;
+    } 
+    .top-nav ul li a{ 
+        font-size: 1.8rem; 
+    }
+    .top-social i{ 
+        font-size: 3.2rem; 
+    }    
+    .top-social i{
+        margin-top: 6px; 
+    }
+    .top-nav{
+        padding: 20px;
+    }
+ 
+
+} 
+
+
+/* Video Holder */
+.video-tile{
+    display: flex;
+    flex-direction: column;
+    background: rgba(235, 235, 235, .1);
+    border: 1px solid black; 
+    max-width: 320px;
+    font-size: 1.1rem;
+    margin: 14px;
+}
+.video-tile img{  
+}
+.video-t-head img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px; 
+}
+.video-t-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.video-t-body{
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 6px;
+}
+.video-t-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid white;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.coms-like{
+    display: flex;
+}
+.coms-like .fa-comment{
+    padding-left: 5px; 
+}
+.video-t-foot .fa-facebook-square{
+    font-size: 1.8rem;
+}
+
+
+
+
+.form-holder, .dates-holder{
+    grid-column: 1 / -1;
+}
+
+.dates-holder{
+    display: grid;
+    grid-gap: 5px; 
+    justify-items: center; 
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr; 
+    position: relative;
+    text-align: center; 
+    width: 100%;
+}
+.dates-holder h1{
+    grid-column: 1 / -1;
+}
+.dates-holder h2{
+    font-size: 1.4rem;
+}
+.dates-holder p{
+    font-size: 1.2rem;
+}
+
+.dates-holder p a{ 
+    padding: 12px;
+    border-radius: 16px;
+    text-decoration: none;
+    background: #ef554d;
+    color: #ebebeb;
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    transition: all .09s;
+}
+
+.dates-holder p a:active{ 
+    transform: scale(.95);
+    transition: all .09s; 
+}
+
+.dates-holder p a:hover{ 
+    transform: scale(.95);
+    transition: all .09s;
+    box-shadow: inset 0 0 3px #000000;
+}
+
+footer{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 10px;
+    right: 0;
+    background: rgba(255, 255, 255, .4);
+}
+footer p{
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+footer p:last-of-type{
+    padding-bottom: 10px;
+}
+@media only screen and (max-width: 800px){
+    
+    footer p{
+        font-size: .8rem;
+    }    
+}
+
+span{
+    display: inline-block;
+} 
+.video-tile, footer, .body-holder, .dates-holder p a{
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);    
+}
