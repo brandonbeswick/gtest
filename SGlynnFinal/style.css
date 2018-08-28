@@ -1,0 +1,158 @@
+/*
+
+ns1.bluehost.com
+ns2.bluehost.com
+
+*/
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3vh;
+    background-color: #f59893;
+    background-image:  url(wildtextures-concrete-high-contrast.png);   
+}
+img{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+.bg-img-wrap{
+    height: 100%; 
+    position: absolute;    
+    z-index: -1;
+    
+}
+.frnt-img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    object-position: top; 
+}
+.frnt-img.desk{
+    display: none;
+}
+.frnt-img.mobile{
+    display: inline-block;
+}
+@media only screen and (min-width: 750px){
+    .frnt-img.desk{
+        display: inline-block;
+    }
+    .frnt-img.mobile{
+        display: none;
+    }
+}
+
+.top-nav{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.top-nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.top-nav ul li{ 
+    padding: 12px;
+}
+.top-nav ul a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+}
+
+.top-nav .top-social{
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+.top-nav .top-social i{ 
+    padding-left: 12px;
+    padding-left: 12px;
+    font-size: 2rem;
+}
+.top-nav .top-social a{
+    color: black;
+}
+
+.page-holder{
+    background: rgba(255, 255, 255, .8);
+    padding-left: 14px;
+    padding-right: 8px;
+    margin-top: 10px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+
+/* Video Holder */
+.video-tile{
+    display: flex;
+    flex-direction: column;
+    background: rgba(235, 235, 235, .1);
+    border: 1px solid black; 
+    max-width: 320px;
+    font-size: 1.1rem;
+    margin: 14px;
+}
+.video-tile img{  
+}
+.video-t-head img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px; 
+}
+.video-t-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.video-t-body{
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 6px;
+}
+.video-t-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid white;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.coms-like{
+    display: flex;
+}
+.coms-like .fa-comment{
+    padding-left: 5px; 
+}
+.video-t-foot .fa-facebook-square{
+    font-size: 1.8rem;
+}
+
+
+.front-name{
+    font-size: 10vh;
+    padding: 0;
+    margin: 0;
+}
+.front-name:first-of-type{
+    padding-top: 20vh;
+}
+.front-name:last-of-type{
+    padding-bottom: 10vh;
+}
+
+
+
+footer{
+    margin-top: 100px;
+}
